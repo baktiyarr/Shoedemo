@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="About.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+    <section id="company-info">
+        <h2>Our Story</h2>
+        <p>Founded in 2020, we are dedicated to providing top-quality shoes to ensure your feet deserve the best. Our goal is to offer a comfortable and stylish experience with every pair.</p>
+    </section>
+
+    <section id="mission">
+        <h2>Our Mission</h2>
+        <p>We strive to revolutionize the shoe industry by creating shoes that balance comfort, performance, and sustainability. Our mission is to deliver the best for your feet and for the environment.</p>
+    </section>
+
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member" onmouseover="showDetails('member1')" onmouseout="hideDetails('member1')">
+            <img src="https://res.cloudinary.com/dmubfrefi/image/private/s--d3SOmp0x--/c_crop,h_3200,w_3200,x_0,y_0/f_auto/q_auto/v1/dee-about-cms-prod-medias/0ad495ef-4337-4926-bd22-3baf192fd5fd/nike-inc-leadership-john-donahoe-0264-square.jpg?_a=BAAAV6Bs" alt="Team Member 1">
+            <div class="details" id="member1">CEO & Founder</div>
+        </div>
+        <div class="team-member" onmouseover="showDetails('member2')" onmouseout="hideDetails('member2')">
+            <img src="https://img.buzzfeed.com/buzzfeed-static/complex/images/amdlvxhnn6ajpkxjg4ng/tinker-hatfield-holding-nike-mag-sneakers.jpg?output-format=jpg&output-quality=auto" alt="Team Member 2">
+            <div class="details" id="member2">Lead Designer</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact us at info@shoewebsite.com</p>
+    </footer>
+
+    <script src="About.js"></script>
+</body>
+</html>

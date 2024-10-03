@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: rgb(122, 122, 212);
+}
+.newest{
+    display: grid;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    background: rgb(122, 122, 212);
+    margin: 20px;
+}
+#card{
+   height: 400px;
+   width: 400px;
+   border-radius: 20px;
+   background: rgb(240, 238, 234); 
+   padding: 30px;
+   text-align: center;
+}
+#immm{
+    height: 50%;
+    width: 95%;
+    object-fit: cover;
+    object-position: center;
+}
+#card h1{
+    font-size: 30px;
+    margin: 10px;
+}
+
+#card h5{
+    font-size: 30px;
+    margin: 25px;
+    color: rgb(238, 173, 173);
+}
+
+#card button{
+    background: #1888f1;
+    color: rgb(20, 20, 20);
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 40px;
+    cursor: col-resize;
+}
+#card #remove{
+    background-color: red;
+}
+
+
+
+
+#card1{
+   height: 400px;
+   width: 400px;
+   border-radius: 20px;
+   background: rgb(240, 238, 234); 
+   padding: 30px;
+   text-align: center;
+}
+#immm1{
+    height: 50%;
+    width: 95%;
+    object-fit: cover;
+    object-position: center;
+}
+#card1 h1{
+    font-size: 30px;
+    margin: 10px;
+}
+
+#card1 h5{
+    font-size: 30px;
+    margin: 25px;
+    color: rgb(238, 173, 173);
+}
+
+#card1 button{
+    background: #1888f1;
+    color: rgb(20, 20, 20);
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 40px;
+    cursor: col-resize;
+}
+#card1 #remove1{
+    background-color: red;
+}
+
+
+
+
+#card2{
+   height: 400px;
+   width: 400px;
+   border-radius: 20px;
+   background: rgb(240, 238, 234); 
+   padding: 30px;
+   text-align: center;
+}
+#immm2{
+    height: 50%;
+    width: 95%;
+    object-fit: cover;
+    object-position: center;
+}
+#card2 h1{
+    font-size: 30px;
+    margin: 10px;
+}
+
+#card2 h5{
+    font-size: 30px;
+    margin: 25px;
+    color: rgb(238, 173, 173);
+}
+
+#card2 button{
+    background: #1888f1;
+    color: rgb(20, 20, 20);
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 40px;
+    cursor: col-resize;
+}
+#card2 #remove2{
+    background-color: red;
+    text-align: center;
+}
+
+
+#DDDD{
+    text-align: center;
+    color: wheat;
+    font-weight: 900;
+}
+
+
